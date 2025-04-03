@@ -1,0 +1,19 @@
+*{ /* tirando os padroes do navegador */
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color-primary: #00A000;
+
+    --color-black: #000001;
+
+    --color-grey: #000000;
+
+    --color-lightgray: #999999;
+
+    --color-bg-overlay: #FAFAFA;
+
+    --color-white: #FFFFFF;
+}
