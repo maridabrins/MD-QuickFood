@@ -17,3 +17,12 @@
 
     --color-white: #FFFFFF;
 }
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Caminho/Gilroy.ttf') format('ttf');         
+}
+
+body {
+    font-family: 'Gilroy', sans-serif; 
+}
