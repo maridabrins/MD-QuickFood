@@ -1,1 +1,52 @@
 @import url("./global.css");
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 257.27px;
+}
+
+.logo{
+    padding: 40px 0px;
+}
+
+.nav-header{
+    margin: 16px 0;
+}
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-header a{
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: 16px;
+}
+a.active{
+    color: var(--color-primary);
+}
+
+.nav-header a:hover{
+    font-weight: 600;
+}
+
+.header-icons{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.btn-login{
+    width: 108px;
+    height: 48px;
+    background: none ;
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    padding: 16px 32px;
+    color: var(--color-primary);
+    font-size: 16px;
+}
+
