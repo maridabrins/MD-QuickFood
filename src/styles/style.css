@@ -54,10 +54,11 @@ a.active{
 
 /* ----------------MAIN-------------- */
 main{
+    margin-top: 100px;
     display: flex;
     justify-content: center;    
     align-items: center;
-    padding: 100px 51px;
+    padding: 0 51px;
     gap: 124px;
 }
 .content-healthy{
@@ -82,7 +83,7 @@ main{
    font-size: 18px;
    width: 503px;
 }
-.btn-main{
+div.btn-main{
     gap: 24px;
 }
 .btn-primary{
@@ -105,4 +106,68 @@ main{
 }
 
 /* ----------------FIM MAIN-------------- */
+
+/* ----------------CHOOSE-US-------------- */
+.choose-us{
+    background-color: var(--color-bg-overlay);
+    padding: 100px 0;
+    text-align: center;
+}
+.choose-us h2{
+    color: var(--color-black);
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 7px;
+}
+
+.choose-us p{
+    margin-top: 8px;
+    color: var(--color-lightgray);
+    font-size: 18px;  
+    font-weight: 500;      
+}
+
+.cards-container{
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    padding: 0 27px 50px 27px;
+}
+
+.cards-container h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.choose-infos{
+    width: 275.3px;
+}
+
+.choose-statistics{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.item{
+    padding: 0 157.5px;
+
+}
+
+.item h3{
+    font-size: 48px;
+    color: var(--color-black);
+}
+
+.item p{
+    font-size: 18px;
+    color:  rgba(0, 0, 1, 0.6);
+    font-weight: 500;
+}
+
+
+
+
+/* ----------------FIM CHOOSE-US-------------- */
 
