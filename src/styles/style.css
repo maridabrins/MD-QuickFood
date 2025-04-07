@@ -1,5 +1,6 @@
 @import url("./global.css");
 
+/* ----------------HEADER-------------- */
 header{
     display: flex;
     justify-content: center;
@@ -49,4 +50,59 @@ a.active{
     color: var(--color-primary);
     font-size: 16px;
 }
+/* ----------------FIM HEADER-------------- */
+
+/* ----------------MAIN-------------- */
+main{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    padding: 100px 51px;
+    gap: 124px;
+}
+.content-healthy{
+    width: 563px;
+}
+
+.content-healthy h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin-bottom: 32px;
+}
+
+.content-healthy span{
+    color: var(--color-primary);
+}
+
+.content-healthy p{
+    text-align: start;
+   color: rgb(0, 0, 1, 0.6);
+   margin-bottom: 32px;
+   font-size: 18px;
+   width: 503px;
+}
+.btn-main{
+    gap: 24px;
+}
+.btn-primary{
+    background: var(--color-primary) ;
+    border-radius: 10px;
+    padding: 16px 32px;
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-secundary{
+    background: none;
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    font-size: 16px;
+    color: var(--color-primary);
+    padding: 16px 32px;
+    font-weight: 400;
+}
+
+/* ----------------FIM MAIN-------------- */
 
