@@ -26,3 +26,38 @@
 body {
     font-family: 'Gilroy', sans-serif; 
 }
+
+h2{
+    font-size: 48px;
+    color: var(--color-black);
+    font-weight: 800;
+}
+h3{
+    font-size: 28px;
+    color: var(--color-black);
+    font-weight: 600;
+}
+
+p{
+    font-size: 18px;
+    color: rgba(0, 0, 1, 0.6);
+}
+
+.btn-primary{
+    background: none;
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    font-size: 16px;
+    color: var(--color-primary);
+    padding:  16px 36px;
+    font-weight: 400;
+}
+
+.btn-secondary{
+    background: var(--color-primary) ;
+    border-radius: 10px;
+    padding: 16px 32px;
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 400;
+}
