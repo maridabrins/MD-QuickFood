@@ -40,15 +40,9 @@ a.active{
     align-items: center;
 }
 
-.btn-login{
-    width: 108px;
-    height: 48px;
-    background: none ;
-    border: 1px solid var(--color-primary);
-    border-radius: 10px;
-    padding: 16px 32px;
-    color: var(--color-primary);
-    font-size: 16px;
+header button.btn-primary{
+     width: 105px;
+     height: 51px;
 }
 /* ----------------FIM HEADER-------------- */
 
@@ -63,6 +57,7 @@ main{
 }
 .content-healthy{
     width: 563px;
+   
 }
 
 .content-healthy h1{
@@ -84,25 +79,8 @@ main{
    width: 503px;
 }
 div.btn-main{
+    display: flex;
     gap: 24px;
-}
-.btn-primary{
-    background: var(--color-primary) ;
-    border-radius: 10px;
-    padding: 16px 32px;
-    color: var(--color-white);
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.btn-secundary{
-    background: none;
-    border: 1px solid var(--color-primary);
-    border-radius: 10px;
-    font-size: 16px;
-    color: var(--color-primary);
-    padding: 16px 32px;
-    font-weight: 400;
 }
 
 /* ----------------FIM MAIN-------------- */
@@ -114,18 +92,13 @@ div.btn-main{
     text-align: center;
 }
 .choose-us h2{
-    color: var(--color-black);
     text-transform: capitalize;
-    font-weight: 800;
-    font-size: 48px;
     margin-bottom: 7px;
 }
 
 .choose-us p{
     margin-top: 8px;
-    color: var(--color-lightgray);
-    font-size: 18px;  
-    font-weight: 500;      
+    font-weight: 300;      
 }
 
 .cards-container{
@@ -134,11 +107,6 @@ div.btn-main{
     justify-content: center;
     gap: 140px;
     padding: 0 27px 50px 27px;
-}
-
-.cards-container h3{
-    font-size: 28px;
-    font-weight: 600;
 }
 
 .choose-infos{
@@ -161,13 +129,7 @@ div.btn-main{
 }
 
 .item p{
-    font-size: 18px;
-    color:  rgba(0, 0, 1, 0.6);
     font-weight: 500;
 }
-
-
-
-
 /* ----------------FIM CHOOSE-US-------------- */
 
