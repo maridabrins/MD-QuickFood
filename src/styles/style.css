@@ -133,3 +133,36 @@ div.btn-main{
 }
 /* ----------------FIM CHOOSE-US-------------- */
 
+/* ----------------SPECIAL-DISHES-------------- */
+.special-dishes{
+    text-align: center;
+    padding: 100px;
+    margin: 45px 0;
+}
+.cards-dishes{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center ;
+    gap: 40px;
+    align-items: center;
+}
+
+.cards-dishes article img{
+    width: 250px;
+    height: 242.65px;
+}
+.dishes-infos{
+    margin: 0 auto;
+    text-align: center;
+    width: 279px;
+    margin-bottom: 16px;
+}
+.dishes-infos h3{
+    margin-bottom: 16px;
+}
+
+.special-dishes button{
+    padding: 16px 140px;
+}
+/* ----------------FIM SPECIAL-DISHES-------------- */
+
