@@ -290,3 +290,33 @@ form input::placeholder{
     box-sizing: border-box;
 }
 /* ----------------FIM SUBSCRIBE-------------- */
+
+/* ----------------FOOTER------------------- */
+footer{
+    background-color: var(--color-primary);
+    display: flex;
+    gap: 175px;
+    padding: 100px;
+    justify-content: center;
+}
+
+.footer-socials{
+    display: flex;
+    gap: 17.87px    ;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+.footer-navigation{
+    display: flex;
+    gap: 239px;
+}
+.footer-navigation h2{
+    margin-bottom: 24px;
+    font-size: 18px;
+    color: var(--color-white);
+}
+/* ----------------FIM FOOTER-------------- */
