@@ -53,6 +53,10 @@ p{
     font-weight: 400;
 }
 
+.btn-primary:hover{
+    cursor: pointer;
+}
+
 .btn-secondary{
     background: var(--color-primary) ;
     border-radius: 10px;
@@ -60,4 +64,8 @@ p{
     color: var(--color-white);
     font-size: 16px;
     font-weight: 400;
+}
+
+.btn-secondary{
+    cursor: pointer;
 }

@@ -17,6 +17,7 @@ header{
 }
 .nav-header ul{
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 40px;
 }
@@ -39,20 +40,15 @@ a.active{
     gap: 16px;
     align-items: center;
 }
-
-header button.btn-primary{
-     width: 105px;
-     height: 51px;
-}
 /* ----------------FIM HEADER-------------- */
 
 /* ----------------MAIN-------------- */
 main{
-    margin-top: 100px;
+    margin-bottom: 100px ;
     display: flex;
     justify-content: center;    
     align-items: center;
-    padding: 0 51px;
+    padding: 100px;
     gap: 124px;
 }
 .content-healthy{
@@ -313,7 +309,12 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: 24px;
+    transition: 0.6s;
 }
+.social-icon:hover{
+    transform: translateY(-10px); /* os itens vão pra cima */
+}
+
 .footer-navigation{
     display: flex;
     gap: 239px;
@@ -336,6 +337,11 @@ footer{
     display: block;
     margin-bottom: 16px;
     font-weight: 300;
+    transition: 0.5s;
+}
+.footer-item:hover{
+    transform: translateX(10px);
+    cursor: pointer;
 }
 .copyright{
     text-align: center;
