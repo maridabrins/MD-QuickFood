@@ -294,9 +294,13 @@ form input::placeholder{
 /* ----------------FOOTER------------------- */
 footer{
     background-color: var(--color-primary);
-    display: flex;
     gap: 175px;
     padding: 100px;
+}
+
+.footer-informations{
+    gap: 175px;
+    display: flex;
     justify-content: center;
 }
 
@@ -318,5 +322,30 @@ footer{
     margin-bottom: 24px;
     font-size: 18px;
     color: var(--color-white);
+    font-weight: 600;
+}
+
+.footer-links{
+    list-style: none;
+    font-size: 18px;
+}
+
+.footer-item{
+    color: var(--color-white);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 16px;
+    font-weight: 300;
+}
+.copyright{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.copyright p{
+    margin-top: 16px;
+    font-size: 20px;
+    color: var(--color-white);
+    font-weight: 300;
 }
 /* ----------------FIM FOOTER-------------- */
