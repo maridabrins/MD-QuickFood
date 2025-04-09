@@ -239,3 +239,54 @@ div.btn-main{
     line-height: 1.6;
 }
 /* ----------------FIM ABOUT-US-------------- */
+/* ----------------SUBSCRIBE------------------- */
+.subscribe{
+    text-align: center;
+    padding: 100px 326px;
+    background-color: var(--color-bg-overlay);
+}
+.subscribe-content h2{
+    margin-bottom: 8px;
+}
+
+.form-content{
+    margin-top: 60px;
+}
+
+form input{    
+    border: 1px solid #C1C1C1;
+    width: 710px;
+    height: 77px;
+    border-radius: 8px 0 0 8px;
+    background-color: var(--color-white);
+    box-sizing: border-box;
+    border-right: none;
+}
+
+form input::placeholder{
+    color: var(--color-black);
+    font-size: 18px;
+    padding: 28px 24px;
+    font-family: var(--font);
+}
+
+.subscribe-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-subscribe{
+    background-color: var(--color-white);        
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #C1C1C1;
+    border-left: none;
+    border-radius: 0 8px 8px 0;
+    padding: 8px;
+    height: 77px;
+
+    box-sizing: border-box;
+}
+/* ----------------FIM SUBSCRIBE-------------- */
