@@ -56,7 +56,7 @@ QuickFood é um projeto desenvolvido com base em um protótipo do Figma, com o o
 1 - Baixar o Projeto (git clone)  <br>
 `git clone https://github.com/maridabrins/MD-QuickFood.git`
 
-2 - Abrir em um editor de código <br>
+2 - Abrir a pasta em um editor de código <br>
 `cd MD-QuickFood`
 
 3- Acessar o index.html para visualizar o contéudo
